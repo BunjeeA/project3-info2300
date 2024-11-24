@@ -1,0 +1,264 @@
+body {
+    /* background-color: #253D5B; */
+    background-color: #EDF4ED;
+}
+
+.nav {
+    display: flex;
+    border: 1px #253D5B solid;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    margin: 0px;
+    padding: 20px;
+    width: fit-content;
+}
+
+.nav-links {
+    margin: 0px;
+    width: fit-content;
+    padding: 20px;
+    align-self: flex-end;
+}
+
+.nav .return {
+    text-decoration: none;
+    color: #253D5B;
+}
+
+.nav-links a {
+    font-size: 26px;
+    margin: 15px;
+    color: #253D5B;
+}
+
+.nav a:hover {
+    color: rgb(85, 84, 84);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll {
+    position: sticky;
+    top: 28px;
+    color: #253D5B;
+}
+
+aside {
+    border-left: 1px #253D5B solid;
+    border-right: 1px #253D5B solid;
+    border-bottom: 1px #253D5B solid;
+    width: 15%;
+    padding: 10px;
+}
+
+aside h5 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    /* border: 1px black solid; */
+    width: 85%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    margin: 0px;
+    color: #253D5B;
+}
+
+.filter-tags {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-tags a {
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px #253D5B solid;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
+}
+
+.filter-tags a:active {
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .5);
+}
+
+.filter-tags a:hover {
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .5);
+}
+
+.filter-tags a:visited {
+    color: #253D5B;
+}
+
+#cardContainer {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.card {
+    width: fit-content;
+    padding: 20px;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all .2s linear;
+    background: #BDDBC5;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .5);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card h2 {
+    color: #253D5B;
+}
+
+.cardA {
+    text-decoration: none;
+    color: #253D5B;
+}
+
+.cardA a {
+    color: blue;
+}
+
+.cardA a p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+cardA a:visited {
+    color: blue;
+}
+
+.cardA h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.entry h3 {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.entryLeft {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    color: #253D5B;
+}
+
+.entryLeft a p {
+    justify-self: flex-start;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.entryRight {
+    margin-top: 60px;
+    font-size: 28px;
+    color: #253D5B;
+}
+
+.entryRight p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    border: 2px #253D5B solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 23px;
+    width: fit-content;
+}
+
+.entryTag {
+    text-decoration: none;
+    color: #253D5B
+}
+
+.entryTag p:hover {
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .5);
+}
+
+.back {
+    text-decoration: none;
+    color: #253D5B;
+    font-size: 18px;
+}
+
+.back h2 {
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.row-container {
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+form {
+    /* display: flex; */
+    padding: 10px;
+    color: #253D5B;
+}
+
+form div {
+    margin: 10px;
+}
+
+/* form .unique{
+    position: relative;
+    right: 75px;
+} */
+
+form h2 {
+    font-size: 1.17em;
+    color: #253D5B;
+}
+
+.admin-layout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
